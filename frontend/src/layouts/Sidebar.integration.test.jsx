@@ -85,7 +85,7 @@ describe('Sidebar Integration', () => {
         );
 
         expect(screen.getByText(/Project Menu/i)).toBeInTheDocument();
-        expect(screen.getByText(/Strategic Blueprint/i)).toBeInTheDocument();
+        expect(screen.getByText(/Financial Blueprint/i)).toBeInTheDocument();
     });
 
     it('ne doit pas afficher le switcher "Workspace" pour un utilisateur TEAM', () => {
